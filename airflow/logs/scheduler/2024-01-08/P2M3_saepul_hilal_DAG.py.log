@@ -1,0 +1,606 @@
+[2024-01-08T07:43:21.497+0000] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:43:21.498+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:43:21.500+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:21.500+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:43:37.322+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:43:38.259+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.257+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetching_cleaning_push_elastic
+[2024-01-08T07:43:38.301+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.301+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:fetching_cleaning_push_elastic
+[2024-01-08T07:43:38.336+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.335+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetching_cleaning_push_elastic
+[2024-01-08T07:43:38.350+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.347+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:43:38.395+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.394+0000] {dag.py:2448} INFO - Creating ORM DAG for fetching_cleaning_push_elastic
+[2024-01-08T07:43:38.433+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:43:38.431+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:43:38.486+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 16.993 seconds
+[2024-01-08T07:44:09.005+0000] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:09.007+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:44:09.011+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:09.010+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:10.383+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:10.417+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:10.416+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:44:10.435+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:10.434+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:44:10.444+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 1.451 seconds
+[2024-01-08T07:44:40.678+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:40.681+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:44:40.682+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:40.682+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:41.253+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:44:41.272+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:41.271+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:44:41.284+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:44:41.284+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:44:41.316+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.648 seconds
+[2024-01-08T07:45:11.551+0000] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:11.554+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:45:11.555+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:11.555+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:12.124+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:12.142+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:12.142+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:45:12.153+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:12.152+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:45:12.158+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.618 seconds
+[2024-01-08T07:45:42.401+0000] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:42.403+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:45:42.404+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:42.404+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:42.929+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:45:42.965+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:42.965+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:45:42.993+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:45:42.993+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:45:43.014+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.623 seconds
+[2024-01-08T07:46:13.277+0000] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:13.281+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:46:13.283+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:13.283+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:13.882+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:13.904+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:13.904+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:46:13.921+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:13.921+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:46:13.928+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.668 seconds
+[2024-01-08T07:46:44.134+0000] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:44.136+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:46:44.137+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:44.137+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:44.763+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:46:44.805+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:44.804+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:46:44.834+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:46:44.833+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:46:44.857+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.730 seconds
+[2024-01-08T07:47:15.084+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:15.087+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:47:15.088+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:15.088+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:15.624+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:15.637+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:15.636+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:47:15.649+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:15.649+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:47:15.654+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.589 seconds
+[2024-01-08T07:47:45.890+0000] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:45.892+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:47:45.893+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:45.893+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:46.454+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:47:46.468+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:46.467+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:47:46.478+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:47:46.478+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:47:46.499+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.617 seconds
+[2024-01-08T07:48:16.693+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:16.697+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:48:16.699+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:16.699+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:17.240+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:17.255+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:17.255+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:48:17.268+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:17.268+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:48:17.315+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.638 seconds
+[2024-01-08T07:48:47.532+0000] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:47.533+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:48:47.534+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:47.534+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:48.161+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:48:48.182+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:48.182+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:48:48.195+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:48:48.195+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:48:48.210+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.682 seconds
+[2024-01-08T07:49:18.423+0000] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:18.426+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:49:18.427+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:18.427+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:18.986+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:19.007+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:19.007+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:49:19.026+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:19.025+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:49:19.032+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.617 seconds
+[2024-01-08T07:49:49.362+0000] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:49.367+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:49:49.368+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:49.368+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:49.866+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:49:49.900+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:49.899+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:49:49.914+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:49:49.914+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:49:49.921+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.579 seconds
+[2024-01-08T07:50:20.145+0000] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:20.147+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:50:20.148+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:20.148+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:20.671+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:20.689+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:20.689+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:50:20.704+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:20.704+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:50:20.711+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.573 seconds
+[2024-01-08T07:50:50.952+0000] {processor.py:153} INFO - Started process (PID=312) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:50.954+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:50:50.956+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:50.955+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:51.531+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:50:51.548+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:51.548+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:50:51.559+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:50:51.559+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:50:51.564+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.628 seconds
+[2024-01-08T07:51:21.830+0000] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:21.838+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:51:21.842+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:21.841+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:22.397+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:22.415+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:22.415+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:51:22.427+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:22.427+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:51:22.441+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.638 seconds
+[2024-01-08T07:51:52.653+0000] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:52.655+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:51:52.656+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:52.656+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:53.174+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:51:53.203+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:53.203+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:51:53.213+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:51:53.213+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:51:53.218+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.576 seconds
+[2024-01-08T07:52:23.479+0000] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:23.481+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:52:23.483+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:23.483+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:24.077+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:24.097+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:24.096+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:52:24.118+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:24.117+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:52:24.126+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.657 seconds
+[2024-01-08T07:52:54.318+0000] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:54.321+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:52:54.322+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:54.322+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:54.879+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:52:54.919+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:54.918+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:52:54.934+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:52:54.934+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:52:54.940+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.632 seconds
+[2024-01-08T07:53:25.196+0000] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:25.198+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:53:25.199+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:25.199+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:25.708+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:25.736+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:25.735+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:53:25.749+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:25.749+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:53:25.756+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.568 seconds
+[2024-01-08T07:53:56.000+0000] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:56.007+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:53:56.009+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:56.009+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:56.550+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:53:56.565+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:56.564+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:53:56.578+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:53:56.578+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:53:56.587+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.598 seconds
+[2024-01-08T07:54:26.817+0000] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:26.820+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:54:26.821+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:26.821+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:27.429+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:27.451+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:27.450+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:54:27.462+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:27.462+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:54:27.467+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.660 seconds
+[2024-01-08T07:54:57.758+0000] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:57.760+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:54:57.761+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:57.761+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:58.269+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:54:58.290+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:58.290+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:54:58.312+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:54:58.312+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:54:58.318+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.572 seconds
+[2024-01-08T07:55:28.521+0000] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:28.523+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:55:28.524+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:28.524+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:29.028+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:29.042+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:29.042+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:55:29.052+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:29.052+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:55:29.060+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.544 seconds
+[2024-01-08T07:55:59.295+0000] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:59.297+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:55:59.299+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:59.298+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:59.819+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:55:59.836+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:59.835+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:55:59.846+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:55:59.846+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:55:59.852+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.568 seconds
+[2024-01-08T07:56:30.052+0000] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:56:30.054+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:56:30.055+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:56:30.055+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:56:30.541+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:56:30.556+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:56:30.556+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:56:30.566+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:56:30.566+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:56:30.572+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.527 seconds
+[2024-01-08T07:57:00.799+0000] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:00.802+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:57:00.803+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:00.803+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:01.313+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:01.327+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:01.327+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:57:01.337+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:01.337+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:57:01.342+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.553 seconds
+[2024-01-08T07:57:31.514+0000] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:31.520+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:57:31.525+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:31.524+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:32.024+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:57:32.053+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:32.053+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:57:32.064+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:57:32.064+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:57:32.071+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.566 seconds
+[2024-01-08T07:58:02.315+0000] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:02.317+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:58:02.318+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:02.318+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:02.985+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:03.041+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:03.041+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:58:03.073+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:03.072+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:58:03.089+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.781 seconds
+[2024-01-08T07:58:33.412+0000] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:33.415+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:58:33.416+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:33.416+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:33.941+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:58:33.963+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:33.962+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:58:33.976+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:58:33.975+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:58:33.986+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.583 seconds
+[2024-01-08T07:59:04.088+0000] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:04.094+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:59:04.095+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:04.095+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:04.606+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:04.630+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:04.630+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:59:04.653+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:04.653+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:59:04.659+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.599 seconds
+[2024-01-08T07:59:34.908+0000] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:34.910+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T07:59:34.911+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:34.911+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:35.523+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T07:59:35.541+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:35.541+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T07:59:35.558+0000] {logging_mixin.py:115} INFO - [2024-01-08T07:59:35.558+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T07:59:35.571+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.671 seconds
+[2024-01-08T08:00:05.803+0000] {processor.py:153} INFO - Started process (PID=420) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:05.805+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:00:05.807+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:05.807+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:06.451+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:06.522+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:06.522+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:00:06.544+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:06.544+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:00:06.555+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.761 seconds
+[2024-01-08T08:00:36.800+0000] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:36.802+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:00:36.804+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:36.803+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:37.426+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:00:37.446+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:37.446+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:00:37.467+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:00:37.467+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:00:37.473+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.684 seconds
+[2024-01-08T08:01:07.727+0000] {processor.py:153} INFO - Started process (PID=432) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:07.730+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:01:07.731+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:07.731+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:08.316+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:08.359+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:08.359+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:01:08.370+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:08.370+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:01:08.375+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.659 seconds
+[2024-01-08T08:01:38.630+0000] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:38.633+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:01:38.635+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:38.634+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:39.265+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:01:39.306+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:39.306+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:01:39.319+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:01:39.319+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:01:39.325+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.705 seconds
+[2024-01-08T08:02:09.465+0000] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:09.468+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:02:09.469+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:09.469+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:10.051+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:10.093+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:10.093+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:02:10.108+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:10.108+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:02:10.115+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.658 seconds
+[2024-01-08T08:02:40.451+0000] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:40.453+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:02:40.454+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:40.454+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:40.994+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:02:41.013+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:41.012+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:02:41.034+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:02:41.034+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:02:41.041+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.599 seconds
+[2024-01-08T08:03:11.308+0000] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:11.311+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:03:11.312+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:11.312+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:11.866+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:11.886+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:11.885+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:03:11.910+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:11.910+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:03:11.925+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.639 seconds
+[2024-01-08T08:03:42.203+0000] {processor.py:153} INFO - Started process (PID=462) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:42.205+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:03:42.207+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:42.207+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:42.744+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:03:42.764+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:42.764+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:03:42.776+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:03:42.776+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:03:42.782+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.612 seconds
+[2024-01-08T08:04:13.020+0000] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:13.023+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:04:13.024+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:13.024+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:13.573+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:13.592+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:13.592+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:04:13.604+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:13.604+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:04:13.610+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.601 seconds
+[2024-01-08T08:04:43.914+0000] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:43.918+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:04:43.920+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:43.920+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:44.545+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:04:44.566+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:44.566+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:04:44.587+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:04:44.587+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:04:44.594+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.714 seconds
+[2024-01-08T08:05:14.914+0000] {processor.py:153} INFO - Started process (PID=480) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:14.917+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:05:14.918+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:14.917+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:15.609+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:15.635+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:15.634+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:05:15.647+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:15.647+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:05:15.660+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.754 seconds
+[2024-01-08T08:05:46.005+0000] {processor.py:153} INFO - Started process (PID=486) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:46.008+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:05:46.009+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:46.008+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:46.728+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:05:46.764+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:46.764+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:05:46.776+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:05:46.775+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:05:46.781+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.784 seconds
+[2024-01-08T08:06:17.066+0000] {processor.py:153} INFO - Started process (PID=492) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:17.067+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:06:17.068+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:17.068+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:17.603+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:17.629+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:17.629+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:06:17.642+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:17.642+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:06:17.648+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.590 seconds
+[2024-01-08T08:06:47.941+0000] {processor.py:153} INFO - Started process (PID=498) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:47.943+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:06:47.944+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:47.944+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:48.554+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:06:48.571+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:48.570+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:06:48.582+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:06:48.582+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:06:48.589+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.654 seconds
+[2024-01-08T08:07:18.898+0000] {processor.py:153} INFO - Started process (PID=504) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:18.901+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:07:18.901+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:18.901+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:19.448+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:19.480+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:19.479+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:07:19.492+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:19.492+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:07:19.500+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.608 seconds
+[2024-01-08T08:07:49.731+0000] {processor.py:153} INFO - Started process (PID=510) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:49.733+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:07:49.735+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:49.735+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:50.305+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:07:50.322+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:50.321+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:07:50.332+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:07:50.332+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:07:50.338+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.623 seconds
+[2024-01-08T08:08:20.507+0000] {processor.py:153} INFO - Started process (PID=516) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:20.508+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:08:20.509+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:20.509+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:21.016+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:21.032+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:21.031+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:08:21.042+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:21.042+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:08:21.048+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.547 seconds
+[2024-01-08T08:08:51.368+0000] {processor.py:153} INFO - Started process (PID=522) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:51.370+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:08:51.370+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:51.370+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:51.870+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:08:51.902+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:51.901+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:08:51.918+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:08:51.918+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:08:51.925+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.561 seconds
+[2024-01-08T08:09:22.144+0000] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:22.146+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:09:22.147+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:22.147+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:22.711+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:22.728+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:22.728+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:09:22.739+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:22.739+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:09:22.744+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.608 seconds
+[2024-01-08T08:09:53.018+0000] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:53.019+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:09:53.020+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:53.020+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:53.547+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:09:53.562+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:53.562+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:09:53.573+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:09:53.573+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:09:53.578+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.567 seconds
+[2024-01-08T08:10:23.792+0000] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:23.794+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:10:23.795+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:23.795+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:24.330+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:24.360+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:24.359+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:10:24.376+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:24.376+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:10:24.383+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.598 seconds
+[2024-01-08T08:10:54.636+0000] {processor.py:153} INFO - Started process (PID=546) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:54.639+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:10:54.640+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:54.640+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:55.334+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:10:55.354+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:55.354+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:10:55.365+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:10:55.365+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:10:55.371+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.742 seconds
+[2024-01-08T08:11:25.654+0000] {processor.py:153} INFO - Started process (PID=552) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:11:25.665+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:11:25.667+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:11:25.667+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:11:26.221+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:11:26.238+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:11:26.237+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:11:26.249+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:11:26.249+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:11:26.254+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.622 seconds
+[2024-01-08T08:11:56.321+0000] {processor.py:153} INFO - Started process (PID=559) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:11:56.323+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:11:56.324+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:11:56.324+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:12:06.327+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:12:06.842+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:12:06.791+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:12:07.197+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:12:07.196+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:12:07.330+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 11.015 seconds
+[2024-01-08T08:12:38.797+0000] {processor.py:153} INFO - Started process (PID=597) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:12:38.799+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:12:38.801+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:12:38.801+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:12:40.411+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:12:40.428+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:12:40.427+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:12:40.440+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:12:40.440+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:12:40.446+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 1.663 seconds
+[2024-01-08T08:13:10.624+0000] {processor.py:153} INFO - Started process (PID=603) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:10.627+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:13:10.628+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:10.628+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:11.308+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:11.337+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:11.336+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:13:11.350+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:11.350+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:13:11.356+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.743 seconds
+[2024-01-08T08:13:42.182+0000] {processor.py:153} INFO - Started process (PID=615) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:42.185+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:13:42.186+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:42.185+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:42.714+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:13:42.728+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:42.728+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:13:42.739+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:13:42.739+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:13:42.745+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.569 seconds
+[2024-01-08T08:14:13.009+0000] {processor.py:153} INFO - Started process (PID=627) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:13.013+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:14:13.022+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:13.017+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:13.611+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:13.656+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:13.656+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:14:13.668+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:13.668+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:14:13.677+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.679 seconds
+[2024-01-08T08:14:44.119+0000] {processor.py:153} INFO - Started process (PID=639) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:44.120+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:14:44.121+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:44.121+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:44.643+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:14:44.672+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:44.671+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:14:44.689+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:14:44.689+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:14:44.697+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.583 seconds
+[2024-01-08T08:15:15.024+0000] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:15.027+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:15:15.030+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:15.030+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:15.636+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:15.652+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:15.652+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:15:15.678+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:15.677+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:15:15.692+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.676 seconds
+[2024-01-08T08:15:46.356+0000] {processor.py:153} INFO - Started process (PID=667) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:46.358+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:15:46.359+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:46.359+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:47.190+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:15:47.444+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:47.439+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:15:47.464+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:15:47.464+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:15:47.485+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 1.137 seconds
+[2024-01-08T08:16:17.694+0000] {processor.py:153} INFO - Started process (PID=678) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:17.696+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:16:17.697+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:17.697+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:18.315+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:18.337+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:18.337+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:16:18.351+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:18.351+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:16:18.404+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.717 seconds
+[2024-01-08T08:16:48.776+0000] {processor.py:153} INFO - Started process (PID=684) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:48.778+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:16:48.780+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:48.780+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:49.540+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:16:49.563+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:49.563+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:16:49.575+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:16:49.575+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:16:49.582+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.812 seconds
+[2024-01-08T08:17:20.006+0000] {processor.py:153} INFO - Started process (PID=690) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:20.009+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:17:20.012+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:20.012+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:20.579+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:20.617+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:20.616+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:17:20.632+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:20.632+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:17:20.643+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.648 seconds
+[2024-01-08T08:17:51.040+0000] {processor.py:153} INFO - Started process (PID=696) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:51.042+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:17:51.043+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:51.043+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:51.560+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:17:51.588+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:51.588+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:17:51.605+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:17:51.605+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:17:51.612+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.579 seconds
+[2024-01-08T08:18:21.858+0000] {processor.py:153} INFO - Started process (PID=702) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:21.860+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:18:21.861+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:21.861+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:22.492+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:22.513+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:22.513+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:18:22.527+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:22.527+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2024-01-06T06:30:00+00:00, run_after=2024-01-07T06:30:00+00:00
+[2024-01-08T08:18:22.535+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.684 seconds
+[2024-01-08T08:18:52.861+0000] {processor.py:153} INFO - Started process (PID=708) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:52.864+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:18:52.866+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:52.865+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:53.495+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:53.548+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:53.547+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:18:53.553+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:53.553+0000] {dag.py:2448} INFO - Creating ORM DAG for fetching_cleaning_push_elastic
+[2024-01-08T08:18:53.559+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:53.559+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:18:53.567+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.717 seconds
+[2024-01-08T08:18:55.672+0000] {processor.py:153} INFO - Started process (PID=714) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:55.674+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:18:55.675+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:55.675+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:56.248+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:18:56.268+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:56.268+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:18:56.280+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:18:56.280+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:18:56.288+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.630 seconds
+[2024-01-08T08:19:26.504+0000] {processor.py:153} INFO - Started process (PID=720) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:26.506+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:19:26.507+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:26.507+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:27.124+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:27.159+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:27.158+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:19:27.170+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:27.170+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:19:27.176+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.681 seconds
+[2024-01-08T08:19:57.433+0000] {processor.py:153} INFO - Started process (PID=726) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:57.445+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:19:57.448+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:57.448+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:57.991+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:19:58.025+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:58.024+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:19:58.051+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:19:58.051+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:19:58.056+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.632 seconds
+[2024-01-08T08:20:28.372+0000] {processor.py:153} INFO - Started process (PID=732) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:28.390+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:20:28.397+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:28.396+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:29.036+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:29.061+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:29.061+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:20:29.078+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:29.078+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:20:29.086+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.727 seconds
+[2024-01-08T08:20:59.406+0000] {processor.py:153} INFO - Started process (PID=738) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:59.408+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:20:59.409+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:59.409+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:59.937+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:20:59.957+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:59.956+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:20:59.979+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:20:59.979+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:20:59.993+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.594 seconds
+[2024-01-08T08:21:30.104+0000] {processor.py:153} INFO - Started process (PID=744) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:21:30.106+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:21:30.106+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:21:30.106+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:21:30.717+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:21:30.749+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:21:30.748+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:21:30.762+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:21:30.762+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:21:30.767+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.672 seconds
+[2024-01-08T08:22:01.091+0000] {processor.py:153} INFO - Started process (PID=750) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:01.097+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:22:01.099+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:01.099+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:01.709+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:01.730+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:01.729+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:22:01.742+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:01.742+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:22:01.751+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.678 seconds
+[2024-01-08T08:22:31.991+0000] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:31.992+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:22:31.993+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:31.993+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:32.525+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:32.540+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:32.540+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:22:32.551+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:32.550+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:22:32.556+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.571 seconds
+[2024-01-08T08:22:48.743+0000] {processor.py:153} INFO - Started process (PID=762) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:48.745+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:22:48.745+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:48.745+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:49.376+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetching_cleaning_push_elastic']) retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:22:49.480+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:49.479+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-01-08T08:22:49.492+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:22:49.492+0000] {dag.py:2981} INFO - Setting next_dagrun for fetching_cleaning_push_elastic to 2023-12-25T06:30:00+00:00, run_after=2023-12-26T06:30:00+00:00
+[2024-01-08T08:22:49.500+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.763 seconds
+[2024-01-08T08:23:02.759+0000] {processor.py:153} INFO - Started process (PID=768) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:02.761+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:23:02.763+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:23:02.763+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:02.769+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:02.816+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.074 seconds
+[2024-01-08T08:23:32.887+0000] {processor.py:153} INFO - Started process (PID=779) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:32.893+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:23:32.896+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:23:32.896+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:32.904+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:23:32.943+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.061 seconds
+[2024-01-08T08:24:03.078+0000] {processor.py:153} INFO - Started process (PID=790) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:03.081+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:24:03.082+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:24:03.082+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:03.085+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:03.111+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.044 seconds
+[2024-01-08T08:24:33.400+0000] {processor.py:153} INFO - Started process (PID=807) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:33.403+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:24:33.404+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:24:33.404+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:33.408+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:24:33.461+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.068 seconds
+[2024-01-08T08:25:03.794+0000] {processor.py:153} INFO - Started process (PID=817) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:03.796+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:25:03.797+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:25:03.797+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:03.800+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:03.826+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.039 seconds
+[2024-01-08T08:25:34.169+0000] {processor.py:153} INFO - Started process (PID=827) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:34.171+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:25:34.172+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:25:34.172+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:34.184+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:25:34.270+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.110 seconds
+[2024-01-08T08:26:04.565+0000] {processor.py:153} INFO - Started process (PID=837) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:04.569+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:26:04.572+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:26:04.572+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:04.577+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:04.612+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.060 seconds
+[2024-01-08T08:26:34.880+0000] {processor.py:153} INFO - Started process (PID=847) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:34.882+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:26:34.883+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:26:34.883+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:34.886+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:26:34.916+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.044 seconds
+[2024-01-08T08:27:05.253+0000] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:05.255+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:27:05.256+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:27:05.255+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:05.259+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:05.286+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.068 seconds
+[2024-01-08T08:27:35.617+0000] {processor.py:153} INFO - Started process (PID=867) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:35.619+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:27:35.620+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:27:35.620+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:35.623+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:27:35.652+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.043 seconds
+[2024-01-08T08:28:05.989+0000] {processor.py:153} INFO - Started process (PID=877) to work on /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:28:05.996+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_saepul_hilal_DAG.py for tasks to queue
+[2024-01-08T08:28:06.002+0000] {logging_mixin.py:115} INFO - [2024-01-08T08:28:06.002+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:28:06.079+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_saepul_hilal_DAG.py
+[2024-01-08T08:28:06.196+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_saepul_hilal_DAG.py took 0.306 seconds

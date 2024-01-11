@@ -1,0 +1,74 @@
+[2023-12-25T10:17:11.523+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T10:12:08.884846+00:00 [queued]>
+[2023-12-25T10:17:11.527+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T10:12:08.884846+00:00 [queued]>
+[2023-12-25T10:17:11.528+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T10:17:11.528+0000] {taskinstance.py:1369} INFO - Starting attempt 2 of 2
+[2023-12-25T10:17:11.528+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T10:17:11.535+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): Fetch_from_Postgresql> on 2023-12-25 10:12:08.884846+00:00
+[2023-12-25T10:17:11.541+0000] {standard_task_runner.py:52} INFO - Started process 730 to run task
+[2023-12-25T10:17:11.543+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ETL', 'Fetch_from_Postgresql', 'manual__2023-12-25T10:12:08.884846+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmp60bw20dp', '--error-file', '/tmp/tmpwvsm6l_a']
+[2023-12-25T10:17:11.545+0000] {standard_task_runner.py:80} INFO - Job 5: Subtask Fetch_from_Postgresql
+[2023-12-25T10:17:11.580+0000] {task_command.py:371} INFO - Running <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T10:12:08.884846+00:00 [running]> on host 0df44d59871b
+[2023-12-25T10:17:11.618+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=ETL
+AIRFLOW_CTX_TASK_ID=Fetch_from_Postgresql
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-25T10:12:08.884846+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-25T10:12:08.884846+00:00
+[2023-12-25T10:17:11.623+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1803, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 719, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "table_m3" does not exist
+LINE 1: select * from table_m3
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/steps/fetch.py", line 9, in fetching_data
+    df = pd.read_sql_query("select * from table_m3", conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 443, in read_sql_query
+    dtype=dtype,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1579, in read_query
+    result = self.execute(*args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1424, in execute
+    return self.connectable.execution_options().execute(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1279, in execute
+    future=False,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1585, in _exec_driver_sql
+    distilled_parameters,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2027, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1803, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 719, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "table_m3" does not exist
+LINE 1: select * from table_m3
+                      ^
+
+[SQL: select * from table_m3]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-12-25T10:17:11.629+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=ETL, task_id=Fetch_from_Postgresql, execution_date=20231225T101208, start_date=20231225T101711, end_date=20231225T101711
+[2023-12-25T10:17:11.634+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 5 for task Fetch_from_Postgresql ((psycopg2.errors.UndefinedTable) relation "table_m3" does not exist
+LINE 1: select * from table_m3
+                      ^
+
+[SQL: select * from table_m3]
+(Background on this error at: https://sqlalche.me/e/14/f405); 730)
+[2023-12-25T10:17:11.680+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-12-25T10:17:11.704+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,23 @@
+[2023-12-25T11:56:25.242+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Data_Cleaning manual__2023-12-25T11:56:22.759761+00:00 [queued]>
+[2023-12-25T11:56:25.246+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Data_Cleaning manual__2023-12-25T11:56:22.759761+00:00 [queued]>
+[2023-12-25T11:56:25.247+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:56:25.247+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-12-25T11:56:25.247+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:56:25.254+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): Data_Cleaning> on 2023-12-25 11:56:22.759761+00:00
+[2023-12-25T11:56:25.259+0000] {standard_task_runner.py:52} INFO - Started process 219 to run task
+[2023-12-25T11:56:25.261+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ETL', 'Data_Cleaning', 'manual__2023-12-25T11:56:22.759761+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmpyt7etj3l', '--error-file', '/tmp/tmpsj8rf_oq']
+[2023-12-25T11:56:25.262+0000] {standard_task_runner.py:80} INFO - Job 65: Subtask Data_Cleaning
+[2023-12-25T11:56:25.296+0000] {task_command.py:371} INFO - Running <TaskInstance: ETL.Data_Cleaning manual__2023-12-25T11:56:22.759761+00:00 [running]> on host 0df44d59871b
+[2023-12-25T11:56:25.333+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=ETL
+AIRFLOW_CTX_TASK_ID=Data_Cleaning
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-25T11:56:22.759761+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-25T11:56:22.759761+00:00
+[2023-12-25T11:56:25.438+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-25T11:56:25.446+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=ETL, task_id=Data_Cleaning, execution_date=20231225T115622, start_date=20231225T115625, end_date=20231225T115625
+[2023-12-25T11:56:25.480+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-25T11:56:25.499+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

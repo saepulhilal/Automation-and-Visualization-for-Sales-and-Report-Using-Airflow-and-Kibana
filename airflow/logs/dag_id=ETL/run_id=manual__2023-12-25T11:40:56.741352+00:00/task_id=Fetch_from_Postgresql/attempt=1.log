@@ -1,0 +1,23 @@
+[2023-12-25T11:40:57.676+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T11:40:56.741352+00:00 [queued]>
+[2023-12-25T11:40:57.682+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T11:40:56.741352+00:00 [queued]>
+[2023-12-25T11:40:57.682+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:40:57.682+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-12-25T11:40:57.682+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:40:57.689+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): Fetch_from_Postgresql> on 2023-12-25 11:40:56.741352+00:00
+[2023-12-25T11:40:57.696+0000] {standard_task_runner.py:52} INFO - Started process 364 to run task
+[2023-12-25T11:40:57.699+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ETL', 'Fetch_from_Postgresql', 'manual__2023-12-25T11:40:56.741352+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmpixo190wq', '--error-file', '/tmp/tmpuovdzsvf']
+[2023-12-25T11:40:57.700+0000] {standard_task_runner.py:80} INFO - Job 23: Subtask Fetch_from_Postgresql
+[2023-12-25T11:40:57.737+0000] {task_command.py:371} INFO - Running <TaskInstance: ETL.Fetch_from_Postgresql manual__2023-12-25T11:40:56.741352+00:00 [running]> on host 0df44d59871b
+[2023-12-25T11:40:57.790+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=ETL
+AIRFLOW_CTX_TASK_ID=Fetch_from_Postgresql
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-25T11:40:56.741352+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-25T11:40:56.741352+00:00
+[2023-12-25T11:40:57.906+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-25T11:40:57.913+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=ETL, task_id=Fetch_from_Postgresql, execution_date=20231225T114056, start_date=20231225T114057, end_date=20231225T114057
+[2023-12-25T11:40:57.955+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-25T11:40:57.977+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2024-01-08T08:12:10.154+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetching_cleaning_push_elastic.Fetch_from_Postgresql scheduled__2023-12-29T06:30:00+00:00 [queued]>
+[2024-01-08T08:12:10.214+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetching_cleaning_push_elastic.Fetch_from_Postgresql scheduled__2023-12-29T06:30:00+00:00 [queued]>
+[2024-01-08T08:12:10.215+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-08T08:12:10.218+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2024-01-08T08:12:10.219+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-08T08:12:10.272+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): Fetch_from_Postgresql> on 2023-12-29 06:30:00+00:00
+[2024-01-08T08:12:10.357+0000] {standard_task_runner.py:52} INFO - Started process 586 to run task
+[2024-01-08T08:12:10.372+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'fetching_cleaning_push_elastic', 'Fetch_from_Postgresql', 'scheduled__2023-12-29T06:30:00+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmplgg4j_o5', '--error-file', '/tmp/tmpsut883iu']
+[2024-01-08T08:12:10.376+0000] {standard_task_runner.py:80} INFO - Job 72: Subtask Fetch_from_Postgresql
+[2024-01-08T08:12:10.688+0000] {task_command.py:371} INFO - Running <TaskInstance: fetching_cleaning_push_elastic.Fetch_from_Postgresql scheduled__2023-12-29T06:30:00+00:00 [running]> on host 0df44d59871b
+[2024-01-08T08:12:11.138+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=fetching_cleaning_push_elastic
+AIRFLOW_CTX_TASK_ID=Fetch_from_Postgresql
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-29T06:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-29T06:30:00+00:00
+[2024-01-08T08:12:15.601+0000] {python.py:173} INFO - Done. Returned value was: None
+[2024-01-08T08:12:16.123+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=fetching_cleaning_push_elastic, task_id=Fetch_from_Postgresql, execution_date=20231229T063000, start_date=20240108T081210, end_date=20240108T081216
+[2024-01-08T08:12:16.548+0000] {local_task_job.py:227} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-01-08T08:12:16.584+0000] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 586. PIDs of all processes in the group: [586]
+[2024-01-08T08:12:16.589+0000] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 586
+[2024-01-08T08:12:16.632+0000] {process_utils.py:75} INFO - Process psutil.Process(pid=586, status='terminated', exitcode=0, started='08:12:09') (586) terminated with exit code 0

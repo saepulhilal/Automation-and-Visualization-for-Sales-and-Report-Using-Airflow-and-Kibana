@@ -1,0 +1,23 @@
+[2023-12-25T07:04:46.286+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example.fetching_data manual__2023-12-25T07:04:45.153116+00:00 [queued]>
+[2023-12-25T07:04:46.293+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example.fetching_data manual__2023-12-25T07:04:45.153116+00:00 [queued]>
+[2023-12-25T07:04:46.293+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T07:04:46.294+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2023-12-25T07:04:46.294+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T07:04:46.300+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): fetching_data> on 2023-12-25 07:04:45.153116+00:00
+[2023-12-25T07:04:46.305+0000] {standard_task_runner.py:52} INFO - Started process 570 to run task
+[2023-12-25T07:04:46.308+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example', 'fetching_data', 'manual__2023-12-25T07:04:45.153116+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmp0twlc47j', '--error-file', '/tmp/tmpo9jlcm6d']
+[2023-12-25T07:04:46.309+0000] {standard_task_runner.py:80} INFO - Job 62: Subtask fetching_data
+[2023-12-25T07:04:46.345+0000] {task_command.py:371} INFO - Running <TaskInstance: example.fetching_data manual__2023-12-25T07:04:45.153116+00:00 [running]> on host fb95896ee755
+[2023-12-25T07:04:46.390+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Saepul
+AIRFLOW_CTX_DAG_ID=example
+AIRFLOW_CTX_TASK_ID=fetching_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-25T07:04:45.153116+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-25T07:04:45.153116+00:00
+[2023-12-25T07:04:46.408+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-25T07:04:46.415+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=example, task_id=fetching_data, execution_date=20231225T070445, start_date=20231225T070446, end_date=20231225T070446
+[2023-12-25T07:04:46.452+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-25T07:04:46.470+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-12-24T16:23:37.920+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example.fetching_data manual__2023-12-24T16:23:36.790809+00:00 [queued]>
+[2023-12-24T16:23:37.929+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: example.fetching_data manual__2023-12-24T16:23:36.790809+00:00 [queued]>
+[2023-12-24T16:23:37.929+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24T16:23:37.929+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2023-12-24T16:23:37.929+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24T16:23:37.937+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): fetching_data> on 2023-12-24 16:23:36.790809+00:00
+[2023-12-24T16:23:37.944+0000] {standard_task_runner.py:52} INFO - Started process 863 to run task
+[2023-12-24T16:23:37.947+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example', 'fetching_data', 'manual__2023-12-24T16:23:36.790809+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmp2ji368bg', '--error-file', '/tmp/tmpsgecvm6m']
+[2023-12-24T16:23:37.948+0000] {standard_task_runner.py:80} INFO - Job 28: Subtask fetching_data
+[2023-12-24T16:23:38.082+0000] {task_command.py:371} INFO - Running <TaskInstance: example.fetching_data manual__2023-12-24T16:23:36.790809+00:00 [running]> on host fb95896ee755
+[2023-12-24T16:23:38.131+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=example
+AIRFLOW_CTX_TASK_ID=fetching_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-24T16:23:36.790809+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-24T16:23:36.790809+00:00
+[2023-12-24T16:23:38.134+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/P2M3_saepul_hilal_DAG.py", line 18, in ambil_data
+    conn=db.connect(conn_string)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  database "milestone3" does not exist
+
+[2023-12-24T16:23:38.139+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=example, task_id=fetching_data, execution_date=20231224T162336, start_date=20231224T162337, end_date=20231224T162338
+[2023-12-24T16:23:38.144+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 28 for task fetching_data (FATAL:  database "milestone3" does not exist
+; 863)
+[2023-12-24T16:23:38.180+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-12-24T16:23:38.197+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,43 @@
+[2023-12-25T11:42:29.002+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Post_to_Elasticsearch manual__2023-12-25T11:42:25.577621+00:00 [queued]>
+[2023-12-25T11:42:29.006+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: ETL.Post_to_Elasticsearch manual__2023-12-25T11:42:25.577621+00:00 [queued]>
+[2023-12-25T11:42:29.006+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:42:29.007+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-12-25T11:42:29.007+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-25T11:42:29.013+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): Post_to_Elasticsearch> on 2023-12-25 11:42:25.577621+00:00
+[2023-12-25T11:42:29.017+0000] {standard_task_runner.py:52} INFO - Started process 433 to run task
+[2023-12-25T11:42:29.019+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ETL', 'Post_to_Elasticsearch', 'manual__2023-12-25T11:42:25.577621+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_saepul_hilal_DAG.py', '--cfg-path', '/tmp/tmp_8fdo_6t', '--error-file', '/tmp/tmphq3kjsni']
+[2023-12-25T11:42:29.020+0000] {standard_task_runner.py:80} INFO - Job 28: Subtask Post_to_Elasticsearch
+[2023-12-25T11:42:29.052+0000] {task_command.py:371} INFO - Running <TaskInstance: ETL.Post_to_Elasticsearch manual__2023-12-25T11:42:25.577621+00:00 [running]> on host 0df44d59871b
+[2023-12-25T11:42:29.086+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=saepul
+AIRFLOW_CTX_DAG_ID=ETL
+AIRFLOW_CTX_TASK_ID=Post_to_Elasticsearch
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-25T11:42:25.577621+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-25T11:42:25.577621+00:00
+[2023-12-25T11:42:29.634+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.261s]
+[2023-12-25T11:42:29.674+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.033s]
+[2023-12-25T11:42:29.711+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.031s]
+[2023-12-25T11:42:29.745+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.028s]
+[2023-12-25T11:42:29.789+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.038s]
+[2023-12-25T11:42:29.828+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.029s]
+[2023-12-25T11:42:29.858+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-12-25T11:42:29.889+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-12-25T11:42:29.920+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-12-25T11:42:29.950+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.024s]
+[2023-12-25T11:42:29.999+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.044s]
+[2023-12-25T11:42:30.031+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.026s]
+[2023-12-25T11:42:30.063+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-12-25T11:42:30.093+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.024s]
+[2023-12-25T11:42:30.120+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.022s]
+[2023-12-25T11:42:30.165+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.039s]
+[2023-12-25T11:42:30.198+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.026s]
+[2023-12-25T11:42:30.226+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.022s]
+[2023-12-25T11:42:30.259+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.027s]
+[2023-12-25T11:42:30.270+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.008s]
+[2023-12-25T11:42:30.273+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-25T11:42:30.287+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=ETL, task_id=Post_to_Elasticsearch, execution_date=20231225T114225, start_date=20231225T114229, end_date=20231225T114230
+[2023-12-25T11:42:30.338+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-25T11:42:30.364+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,122 @@
+=====================================================================================================================================================================
+
+Nama : Saepul Hilal
+
+Batch : HCK - 010
+
+File ini dibuat untuk menjawab pertanyaan-pertanyaan pada materi yang telah diajarkan pada Phase 2
+
+=====================================================================================================================================================================
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+    Basis data NoSQL (alias "tidak hanya SQL") adalah basis data non-tabular dan menyimpan data 
+    secara berbeda dari tabel relasional. Basis data NoSQL hadir dalam berbagai jenis berdasarkan 
+    model datanya. Tipe utamanya adalah dokumen, key-value, wide-column, dan grafik. 
+    Mereka menyediakan skema yang fleksibel dan mudah diskalakan dengan data dalam jumlah besar dan 
+    beban pengguna yang tinggi. Beberapa contoh sistem NoSQL termasuk MongoDB, Cassandra, Redis, dan Neo4j.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+   Pertimbangan Menggunakan RDBMS:     
+   
+    1. Konsistensi Data yang Ketat:
+         Jika proyek memerlukan konsistensi data yang ketat, seperti dalam aplikasi keuangan atau sistem manajemen inventori yang 
+         memerlukan keakuratan tinggi, maka RDBMS lebih cocok. Basis data relasional dikenal karena transaksi ACID (Atomicity, 
+         Consistency, Isolation, Durability) yang menjamin konsistensi data.
+
+    2. Struktur Data yang Jelas dan Terstruktur:
+         Jika struktur data sudah jelas dan terstruktur dengan baik, seperti dalam aplikasi yang mengelola data yang memiliki hubungan
+         yang kompleks, RDBMS menyediakan skema yang terdefinisi dengan baik dan relasi antar tabel.
+
+    3. Integritas Referensial yang Penting:
+         Jika integritas referensial (hubungan antar tabel) sangat penting untuk aplikasi, misalnya, untuk menjaga konsistensi data, 
+         RDBMS adalah pilihan yang baik karena memiliki aturan referensial yang ketat.
+
+    4. Kompleksitas Query Tinggi:
+         Jika aplikasi membutuhkan query kompleks dan analisis data yang mendalam, RDBMS dapat memberikan dukungan yang baik dengan 
+         menggunakan bahasa SQL yang kuat.
+
+   Pertimbangan Menggunakan NoSQL:    
+      
+    1. Skalabilitas Horizontal yang Diperlukan:
+         Jika aplikasi perlu mengatasi pertumbuhan data yang besar dan memerlukan kemampuan skalabilitas horizontal, NoSQL seringkali 
+         lebih efektif. Sistem NoSQL dirancang untuk mudah ditingkatkan dengan menambahkan node atau server.
+
+    2. Data yang Tidak Terstruktur atau Semi-Terstruktur:
+         Jika data yang dielola cenderung tidak terstruktur atau semi-terstruktur, seperti dalam kasus data dokumen atau data yang 
+         berubah secara dinamis, NoSQL memberikan fleksibilitas yang lebih besar.
+
+    3. Kebutuhan Kinerja Tinggi untuk Beberapa Operasi:
+         Jika aplikasi memiliki kebutuhan akan kinerja tinggi untuk operasi tertentu, seperti penulisan atau pembacaan yang intensif, 
+         NoSQL dapat dioptimalkan untuk tugas-tugas spesifik tersebut.
+
+    4. Fleksibilitas Skema yang Diperlukan:
+         Jika proyek memerlukan fleksibilitas dalam menangani perubahan skema tanpa memerlukan modifikasi berlebihan, NoSQL dengan 
+         skema yang dinamis dapat memberikan keuntungan.
+
+    5. Proyek Start-up atau Pengembangan Cepat:
+         NoSQL seringkali lebih cocok untuk proyek start-up atau situasi pengembangan yang cepat di mana kebutuhan dan struktur data 
+         dapat berubah dengan cepat.
+           
+
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+    Dua tools/platform NoSQL selain ElasticSearch adalah MongoDB dan Cassandra. berikut penjelasannya : 
+
+    MongoDB adalah salah satu platform NoSQL yang populer dengan keunggulan dalam fleksibilitas skema data. Dengan menggunakan model 
+    dokumen, MongoDB memungkinkan pengembang untuk bekerja dengan data tanpa batasan skema yang ketat. Kelebihan lainnya adalah 
+    skalabilitas horizontal yang mudah diimplementasikan, memungkinkan peningkatan kapasitas dan kinerja sistem dengan menambahkan 
+    lebih banyak server atau node. MongoDB juga menyediakan indeks yang kuat untuk mendukung pencarian dan kueri cepat terhadap data 
+    besar. Dengan penyimpanan data dalam format JSON, MongoDB membuat data lebih mudah dimengerti dan diakses oleh pengembang.
+
+    Di sisi lain, Cassandra adalah platform NoSQL yang menonjol dalam skalabilitas linier dan ketersediaan tinggi. Didesain untuk 
+    mengatasi pertumbuhan data dengan menambahkan lebih banyak node, Cassandra menjadi pilihan yang tepat untuk aplikasi yang 
+    membutuhkan ketahanan dan ketersediaan tinggi. Selain itu, Cassandra mendukung struktur data yang fleksibel, termasuk model 
+    data kolom yang memungkinkan penyimpanan data dengan pola yang berbeda. Kelebihan lainnya adalah kinerja tinggi dalam operasi 
+    penulisan data, membuatnya cocok untuk aplikasi dengan beban kerja tulis yang intensif. Dengan arsitektur yang kokoh, Cassandra 
+    menjadi solusi yang handal untuk proyek-proyek yang menuntut tingkat ketersediaan dan skalabilitas yang tinggi.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+    Apache Airflow adalah platform sumber terbuka untuk mengembangkan, menjadwalkan, dan memantau alur kerja berorientasi batch. 
+    Kerangka kerja Python Airflow yang dapat diperluas memungkinkan untuk membangun alur kerja yang terhubung dengan hampir semua 
+    teknologi. Airflow dapat diterapkan dalam banyak cara, mulai dari satu proses di laptop hingga penyiapan terdistribusi untuk 
+    mendukung alur kerja terbesar sekalipun.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+    Great Expectations adalah sebuah kerangka kerja open source yang dirancang untuk meningkatkan kualitas data dalam proyek atau 
+    organisasi. Konsep inti dari Great Expectations adalah penggunaan "ekspektasi" untuk memvalidasi data. Ekspektasi ini mencakup 
+    pernyataan atau aturan yang mendefinisikan bagaimana data seharusnya berperilaku atau memenuhi kriteria tertentu. Dengan mendukung
+    validasi baik dalam batch maupun secara streaming, Great Expectations memberikan fleksibilitas untuk memeriksa kualitas data 
+    secara kontinu. Kerangka kerja ini juga memfasilitasi pembuatan "Data Docs", dokumentasi otomatis untuk setiap ekspektasi, yang 
+    memberikan visibilitas yang baik ke kualitas data dan membantu tim data dalam pemeliharaan. Selain itu, Great Expectations dapat 
+    diintegrasikan dengan berbagai sumber data dan alat analisis, memungkinkan penggunaannya di berbagai ekosistem data. Dengan akses 
+    melalui API dan antarmuka pengguna berbasis web, pengguna dapat dengan mudah membuat, menjalankan, dan memantau ekspektasi data. 
+    Keseluruhannya, Great Expectations menjadi alat yang berharga untuk memastikan kualitas dan konsistensi data dalam proyek-proyek 
+    data science dan analisis data.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+     Pemrosesan batch adalah metode yang digunakan komputer untuk menyelesaikan tugas data berulang dengan volume tinggi secara berkala. 
+     Tugas pemrosesan data tertentu, seperti pencadangan, pemfilteran, dan pengurutan dapat menjadi komputasi yang intensif dan tidak 
+     efisien untuk dijalankan pada transaksi data individual. Sebaliknya, sistem data memproses tugas-tugas seperti itu dalam batch, 
+     seringkali di waktu tidak sibuk ketika sumber daya komputasi lebih umum tersedia, seperti di penghujung hari atau semalam. 
+     Misalnya, pertimbangkan sistem e-commerce yang menerima pesanan sepanjang hari. Daripada memproses setiap pesanan saat terjadi, 
+     sistem mungkin mengumpulkan semua pesanan di akhir setiap hari dan membagikannya dalam satu batch dengan tim pemenuhan pesanan.
+
+     Contoh kasus pada jasa keuangan:
+
+     Organisasi jasa keuangan, mulai dari teknologi keuangan yang tangkas hingga perusahaan lama, telah menggunakan pemrosesan batch di 
+     berbagai bidang seperti komputasi performa tinggi untuk manajemen risiko, pemrosesan transaksi akhir hari, dan pengawasan penipuan. 
+     Mereka menggunakan pemrosesan batch untuk meminimalkan kesalahan manusia, meningkatkan kecepatan dan akurasi, dan mengurangi biaya 
+     dengan otomatisasi.
+
+     Tools :
+     - Hadoop
+     - Spark
+     - Flink
+     - Airflow
+

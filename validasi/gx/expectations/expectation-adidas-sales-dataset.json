@@ -1,0 +1,74 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "expectation-adidas-sales-dataset",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "index"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "price_per_unit",
+        "max_value": 110.0,
+        "min_value": 7.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "retailer",
+        "value_set": [
+          "Foot Locker",
+          "Walmart",
+          "Sports Direct",
+          "West Gear",
+          "Kohl's",
+          "Amazon"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "units_sold",
+        "type_list": [
+          "int64"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "state",
+        "regex": "^[A-Z][a-z]+"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_dateutil_parseable",
+      "kwargs": {
+        "column": "invoice_date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_sum_to_be_between",
+      "kwargs": {
+        "column": "operating_profit",
+        "min_value": 332134761.45000005
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.7"
+  }
+}
